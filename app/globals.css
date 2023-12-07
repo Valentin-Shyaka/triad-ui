@@ -21,6 +21,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   font-family: 'Inter', sans-serif;
+  font-style: italic;
   background: linear-gradient(
       to bottom,
       transparent,

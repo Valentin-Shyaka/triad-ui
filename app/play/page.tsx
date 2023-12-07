@@ -41,7 +41,7 @@ const Play = () => {
         </div>
 
         <div className='mt-8 flex justify-start align-middle items-center gap-8'>
-          <h3 className='text-3xl font-bold '>Choose the bext</h3>
+          <h3 className='text-3xl font-bold '>Choose the best</h3>
           <button className='border-2 borcer-white py-4 px-8'>1</button>
           <button className='border-2 borcer-white py-4 px-8'>2</button>
           <button className='border-2 borcer-white py-4 px-8'>3</button>
