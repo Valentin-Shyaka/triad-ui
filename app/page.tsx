@@ -1,6 +1,9 @@
+'use client'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
+  const router=useRouter()
   return (
     <main className="flex h-screen align-middle flex-col items-center justify-center p-24 bg-[#333333]">
        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="38" viewBox="0 0 44 38" fill="none" className='absolute top-5 left-10'>
@@ -15,7 +18,7 @@ export default function Home() {
         <p>Triad provides the best engaging games on the internet to help you relax and smile a little.</p>
       </div>
 
-      <button className='border-2 borcer-white p-4 mt-8'>Play Now !</button>
+      <button className='border-2 borcer-white p-4 mt-8' onClick={()=>{router.push('/play')}}>Play Now !</button>
       
     </main>
   )
